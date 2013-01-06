@@ -39,7 +39,7 @@
 		[self addChild:_sprite];
 #endif
 		_body = NULL;
-		_radius = 14.0f;
+		_radius = 20.0f;
 
 		_contactListener = new HeroContactListener(self);
 		_game.world->SetContactListener(_contactListener);
@@ -83,6 +83,8 @@
 	// start position
 	CGPoint p = ccp(0, _game.screenH/2+_radius);
 	CCLOG(@"start position = %f, %f", p.x, p.y);
+    
+    _sprite.anchorPoint = ccp(0.5,0.44 );
 
 	bd.position.Set(p.x * [Box2DHelper metersPerPoint], p.y * [Box2DHelper metersPerPoint]);
 	_body = _game.world->CreateBody(&bd);
@@ -149,7 +151,7 @@
 #ifdef DRAW_BOX2D_WORLD
 	_body->SetTransform(_body->GetPosition(), angle);
 #else
-	self.rotation = -1 * CC_RADIANS_TO_DEGREES(angle);
+	self.rotation = -1.5 * CC_RADIANS_TO_DEGREES(angle);
 #endif
 	
 	// collision detection
