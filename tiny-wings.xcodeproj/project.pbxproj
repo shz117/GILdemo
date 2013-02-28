@@ -180,14 +180,8 @@
 		4DFD300A139CCCA5001E1480 /* ZFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFD3009139CCCA5001E1480 /* ZFont.m */; };
 		4DFD300F139CCCA6001E1480 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFD300E139CCCA6001E1480 /* main.m */; };
 		4DFE49C7139F6A7900973A5D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4DFE49C6139F6A7900973A5D /* README.md */; };
-		F98058021699BFC2000AAFCE /* hero.png in Resources */ = {isa = PBXBuildFile; fileRef = F98058011699BFC2000AAFCE /* hero.png */; };
-		F9FB436016988A1700FFB566 /* hero2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D6FFC39149A3110009512B8 /* hero2.png */; };
-		F9FB436816988A4000FFB566 /* hero-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FB436216988A4000FFB566 /* hero-hd.png */; };
-		F9FB436916988A4000FFB566 /* hero2.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FB436316988A4000FFB566 /* hero2.png */; };
-		F9FB436A16988A4000FFB566 /* noise-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FB436416988A4000FFB566 /* noise-hd.png */; };
-		F9FB436B16988A4000FFB566 /* noise.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FB436516988A4000FFB566 /* noise.png */; };
-		F9FB436C16988A4000FFB566 /* resetButton-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FB436616988A4000FFB566 /* resetButton-hd.png */; };
-		F9FB436D16988A4000FFB566 /* resetButton.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FB436716988A4000FFB566 /* resetButton.png */; };
+		F99D53C616DEF788009AB8A7 /* seeker.png in Resources */ = {isa = PBXBuildFile; fileRef = F99D53C516DEF788009AB8A7 /* seeker.png */; };
+		F9F3FC3E169E0A5200C59EF5 /* welcome.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F3FC3D169E0A5200C59EF5 /* welcome.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -202,7 +196,6 @@
 		4D6FFC22149A3101009512B8 /* GLES-Render.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "GLES-Render.mm"; sourceTree = "<group>"; };
 		4D6FFC23149A3101009512B8 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		4D6FFC24149A3101009512B8 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		4D6FFC39149A3110009512B8 /* hero2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hero2.png; sourceTree = "<group>"; };
 		4D6FFC3A149A3110009512B8 /* noise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noise.png; sourceTree = "<group>"; };
 		4D6FFC3B149A3110009512B8 /* resetButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resetButton.png; sourceTree = "<group>"; };
 		4D6FFC40149A3113009512B8 /* good_dog_plain_32.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = good_dog_plain_32.fnt; sourceTree = "<group>"; };
@@ -535,9 +528,10 @@
 		4DFD300D139CCCA6001E1480 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		4DFD300E139CCCA6001E1480 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4DFE49C6139F6A7900973A5D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
-		F98058011699BFC2000AAFCE /* hero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hero.png; path = "../../../../../Desktop/素材/hero.png"; sourceTree = "<group>"; };
+		F99D53C516DEF788009AB8A7 /* seeker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seeker.png; sourceTree = "<group>"; };
+		F9F3FC3C169E0A5200C59EF5 /* welcome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = welcome.h; sourceTree = "<group>"; };
+		F9F3FC3D169E0A5200C59EF5 /* welcome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = welcome.m; sourceTree = "<group>"; };
 		F9FB436216988A4000FFB566 /* hero-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hero-hd.png"; sourceTree = "<group>"; };
-		F9FB436316988A4000FFB566 /* hero2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hero2.png; sourceTree = "<group>"; };
 		F9FB436416988A4000FFB566 /* noise-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "noise-hd.png"; sourceTree = "<group>"; };
 		F9FB436516988A4000FFB566 /* noise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noise.png; sourceTree = "<group>"; };
 		F9FB436616988A4000FFB566 /* resetButton-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "resetButton-hd.png"; sourceTree = "<group>"; };
@@ -605,13 +599,12 @@
 		4D6FFC38149A3110009512B8 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				4D6FFC39149A3110009512B8 /* hero2.png */,
-				F98058011699BFC2000AAFCE /* hero.png */,
 				F9FB436116988A4000FFB566 /* Images */,
 				4D20B98C149D991100B1451D /* hero-hd.png */,
 				4D6FFC3A149A3110009512B8 /* noise.png */,
 				4D20B98D149D991100B1451D /* noise-hd.png */,
 				4D6FFC3B149A3110009512B8 /* resetButton.png */,
+				F99D53C516DEF788009AB8A7 /* seeker.png */,
 				4D20B98E149D991100B1451D /* resetButton-hd.png */,
 			);
 			path = Images;
@@ -631,6 +624,8 @@
 			children = (
 				4D6FFC47149A316C009512B8 /* Game.h */,
 				4D6FFC48149A316C009512B8 /* Game.mm */,
+				F9F3FC3C169E0A5200C59EF5 /* welcome.h */,
+				F9F3FC3D169E0A5200C59EF5 /* welcome.m */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -1160,7 +1155,6 @@
 			isa = PBXGroup;
 			children = (
 				F9FB436216988A4000FFB566 /* hero-hd.png */,
-				F9FB436316988A4000FFB566 /* hero2.png */,
 				F9FB436416988A4000FFB566 /* noise-hd.png */,
 				F9FB436516988A4000FFB566 /* noise.png */,
 				F9FB436616988A4000FFB566 /* resetButton-hd.png */,
@@ -1195,7 +1189,7 @@
 		4DFD2EA1139CCCA0001E1480 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0460;
 			};
 			buildConfigurationList = 4DFD2EA4139CCCA0001E1480 /* Build configuration list for PBXProject "tiny-wings" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1238,14 +1232,7 @@
 				4D20B98F149D991100B1451D /* hero-hd.png in Resources */,
 				4D20B990149D991100B1451D /* noise-hd.png in Resources */,
 				4D20B991149D991100B1451D /* resetButton-hd.png in Resources */,
-				F9FB436016988A1700FFB566 /* hero2.png in Resources */,
-				F9FB436816988A4000FFB566 /* hero-hd.png in Resources */,
-				F9FB436916988A4000FFB566 /* hero2.png in Resources */,
-				F9FB436A16988A4000FFB566 /* noise-hd.png in Resources */,
-				F9FB436B16988A4000FFB566 /* noise.png in Resources */,
-				F9FB436C16988A4000FFB566 /* resetButton-hd.png in Resources */,
-				F9FB436D16988A4000FFB566 /* resetButton.png in Resources */,
-				F98058021699BFC2000AAFCE /* hero.png in Resources */,
+				F99D53C616DEF788009AB8A7 /* seeker.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1402,6 +1389,7 @@
 				4D6FFC55149A3171009512B8 /* Sky.m in Sources */,
 				4D6FFC56149A3171009512B8 /* Terrain.mm in Sources */,
 				4DF7C76414A3117700441977 /* Box2DHelper.m in Sources */,
+				F9F3FC3E169E0A5200C59EF5 /* welcome.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

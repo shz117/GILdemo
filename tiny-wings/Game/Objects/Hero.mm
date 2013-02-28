@@ -35,7 +35,7 @@
 		self.game = game;
 		
 #ifndef DRAW_BOX2D_WORLD
-		self.sprite = [CCSprite spriteWithFile:@"hero.png"];
+		self.sprite = [CCSprite spriteWithFile:@"seeker.png"];
 		[self addChild:_sprite];
 #endif
 		_body = NULL;
@@ -175,13 +175,13 @@
 - (void) landed {
 //	CCLOG(@"landed");
 	_flying = NO;
-}
+   }
 
 - (void) tookOff {
 //	CCLOG(@"tookOff");
 	_flying = YES;
 	b2Vec2 vel = _body->GetLinearVelocity();
-//	CCLOG(@"vel.y = %f",vel.y);
+   //	CCLOG(@"vel.y = %f",vel.y);
 	if (vel.y > kPerfectTakeOffVelocityY) {
 //		CCLOG(@"perfect slide");
 		_nPerfectSlides++;
